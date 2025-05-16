@@ -1,0 +1,33 @@
+fieldset{
+    background-color: antiquewhite;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px;
+    border-style: ridge;
+}
+
+header{
+    background-color: antiquewhite;
+    color: brown;
+    height: 50px;
+    width: auto;
+    font-size: 60px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+}
+
+#lbl-descricao{
+    font-size: 25px;
+}
+
+button{
+    background-color: black;
+    color: azure;
+}
+
+nav{
+    border-style: dotted;
+    width: 120px;
+}

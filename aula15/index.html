@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>FORMULÁRIO DO CURSO</header>
+<body>
+    <form action="destino.php">
+        <label for="descricao" style="color: blueviolet;">Descrição:</label> <br>
+        <textarea name="descricao" id="descricao" cols="30" rows="5"></textarea>  <!--cols define a largura, rows define a altura-->
+        <br> <br>
+        <fieldset>
+            <legend>Curso</legend>
+            <label for="curso" id="lbl-descricao">Selecione o curso: </label> <br> 
+            <span>Informática</span> <input type="radio" name="curso" id="curso1"> <br> <!-- <span> define um bloco de texto simples -->
+            <span>Eletrônica</span> <input type="radio" name="curso" id="curso2"> <br> <!--id é identificação na página, name é no formulário-->
+            <span>Mecânica</span> <input type="radio" name="curso" id="curso3"> <br>
+        </fieldset>
+        
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Disciplina</legend>
+            <label for="disciplinas" id="lbl-descricao">Selecione as disciplinas que você faz: </label> <br>
+            <input type="checkbox" name="disciplina" id="disciplina1"> <span>Informática</span> <br>
+            <input type="checkbox" name="disciplina" id="disciplina2"> <span>Mecânica</span> <br> 
+            <input type="checkbox" name="disciplina" id="disciplina3"> <span>Eletrônica</span> <br> <br>
+            
+        </fieldset>
+        <select name="periodo" id="periodo" style="background-color: burlywood; border: 1px;">
+            <option value="diurno">Diurno</option>
+            <option value="noturno">Noturno</option>
+        </select>
+        <br> <br>
+        <button type="submit">Enviar Formulário</button>
+    </form>
+    
+</body>
+</html>
